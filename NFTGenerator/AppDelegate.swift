@@ -9,18 +9,13 @@ import Cocoa
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-    
-
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        print(Date().debugDescription)
-        let assets = try? LoadAssetsService.init().loadAssets()
-        
-        let some = ImagePropertiesGenerator.init(with: assets ?? []).generateImagesProperties(count: 10000)
-        
-        print(Date().debugDescription)
-        print(some)
+        try? loadAssets()
+            .generateImagesProperties(count: 100_000)
+            .filterDuplicates()
+            .compactMap { $0.generateCIImage() }.map { <#(CIImage?, [Asset])#> in
+                <#code#>
+            }
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
@@ -34,10 +29,25 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 }
 
-extension URL {
-    func subDirectories() throws -> [URL] {
-        // @available(macOS 10.11, iOS 9.0, *)
-        guard hasDirectoryPath else { return [] }
-        return try FileManager.default.contentsOfDirectory(at: self, includingPropertiesForKeys: nil, options: [.skipsHiddenFiles]).filter(\.hasDirectoryPath)
+enum AssetConfig: String {
+    case `default` = "Config"
+}
+
+func loadAssets(with config: AssetConfig = .default) throws -> [[Asset]] {
+    guard let urlPath = Bundle.main.url(forResource: config.rawValue, withExtension: "json") else {
+        throw "Not found config file"
     }
+    
+    let configNames = try JSONDecoder().decode([String].self, from: .init(contentsOf: urlPath))
+    
+    return try configNames
+        .compactMap { Bundle.main.url(forResource: $0, withExtension: "json") }
+        .compactMap { try JSONDecoder().decode([Asset].self, from: .init(contentsOf: $0)) }
+}
+
+
+func saveToDisk() {
+    // 1. save image
+    // 2. generate json
+    // 3. save json
 }
