@@ -1,0 +1,122 @@
+[
+    {
+        "resourceName": "F1_wings_1_a",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_1_b",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_1_c",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_1_d",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_1_e",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_2_a",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_2_b",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_2_c",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_3_a",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_3_b",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_3_c",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    },
+    {
+        "resourceName": "F1_wings_3_d",
+        "resourceType": "png",
+        "tags": [
+            "Wings"
+        ],
+        "rarity": 1000,
+        "type": "wings",
+        "layer": 1
+    }
+]

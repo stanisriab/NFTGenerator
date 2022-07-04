@@ -1,0 +1,12 @@
+[
+    {
+        "resourceName": "F1_body_1",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    }
+]

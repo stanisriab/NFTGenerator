@@ -1,0 +1,42 @@
+[
+    {
+        "resourceName": "F1_eyes_1",
+        "resourceType": "png",
+        "tags": [
+            "Eye"
+        ],
+        "rarity": 1000,
+        "type": "eye",
+        "layer": 10
+    },
+    {
+        "resourceName": "F1_eyes_2",
+        "resourceType": "png",
+        "tags": [
+            "Eye"
+        ],
+        "rarity": 1000,
+        "type": "eye",
+        "layer": 10
+    },
+    {
+        "resourceName": "F1_eyes_3",
+        "resourceType": "png",
+        "tags": [
+            "Eye"
+        ],
+        "rarity": 1000,
+        "type": "eye",
+        "layer": 10
+    },
+    {
+        "resourceName": "F1_eyes_4",
+        "resourceType": "png",
+        "tags": [
+            "Eye"
+        ],
+        "rarity": 1000,
+        "type": "eye",
+        "layer": 10
+    }
+]

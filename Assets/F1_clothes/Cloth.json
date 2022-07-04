@@ -1,0 +1,212 @@
+[
+    {
+        "resourceName": "F1_clothes_1_a",
+        "resourceType": "png",
+        "tags": [
+            "Top"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_1_b",
+        "resourceType": "png",
+        "tags": [
+            "Top"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_1_c",
+        "resourceType": "png",
+        "tags": [
+            "Top"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_1_d",
+        "resourceType": "png",
+        "tags": [
+            "Top"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_2_a",
+        "resourceType": "png",
+        "tags": [
+            "DirtyWeed"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_2_b",
+        "resourceType": "png",
+        "tags": [
+            "DirtyWeed"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_2_c",
+        "resourceType": "png",
+        "tags": [
+            "DirtyWeed"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_2_d",
+        "resourceType": "png",
+        "tags": [
+            "DirtyWeed"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_3_a_1",
+        "resourceType": "png",
+        "tags": [
+            "Сollar"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_3_a_2",
+        "resourceType": "png",
+        "tags": [
+            "Shirt"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_3_a_3",
+        "resourceType": "png",
+        "tags": [
+            "Shirt"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_3_b_1",
+        "resourceType": "png",
+        "tags": [
+            "Сollar"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_3_b_2",
+        "resourceType": "png",
+        "tags": [
+            "Shirt"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_3_b_3",
+        "resourceType": "png",
+        "tags": [
+            "Shirt"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_3_c_1",
+        "resourceType": "png",
+        "tags": [
+            "Сollar"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_3_c_2",
+        "resourceType": "png",
+        "tags": [
+            "Shirt"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_3_c_3",
+        "resourceType": "png",
+        "tags": [
+            "Shirt"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_4_a",
+        "resourceType": "png",
+        "tags": [
+            "Pullover"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_4_b",
+        "resourceType": "png",
+        "tags": [
+            "Pullover"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_5_a",
+        "resourceType": "png",
+        "tags": [
+            "Nipples"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    },
+    {
+        "resourceName": "F1_clothes_5_b",
+        "resourceType": "png",
+        "tags": [
+            "Nipples"
+        ],
+        "rarity": 1000,
+        "type": "cloth",
+        "layer": 3
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "resourceName": "F1_hand_1",
+        "resourceType": "png",
+        "tags": [
+            "Hand"
+        ],
+        "rarity": 1000,
+        "type": "hand",
+        "layer": 6
+    },
+    {
+        "resourceName": "F1_hand_2",
+        "resourceType": "png",
+        "tags": [
+            "Hand"
+        ],
+        "rarity": 1000,
+        "type": "hand",
+        "layer": 6
+    },
+    {
+        "resourceName": "F1_hand_3",
+        "resourceType": "png",
+        "tags": [
+            "Hand"
+        ],
+        "rarity": 1000,
+        "type": "hand",
+        "layer": 6
+    },
+    {
+        "resourceName": "F1_hand_4",
+        "resourceType": "png",
+        "tags": [
+            "Hand"
+        ],
+        "rarity": 1000,
+        "type": "hand",
+        "layer": 6
+    },
+    {
+        "resourceName": "F1_hand_5",
+        "resourceType": "png",
+        "tags": [
+            "Hand"
+        ],
+        "rarity": 1000,
+        "type": "hand",
+        "layer": 6
+    }
+]
