@@ -1,0 +1,101 @@
+
+[
+    {
+        "resourceName": "1",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "2",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "4",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "5",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "6",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "7",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "8",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "9",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "10",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    }
+]

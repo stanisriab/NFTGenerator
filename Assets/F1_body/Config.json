@@ -1,0 +1,123 @@
+
+[
+    {
+        "resourceName": "1",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "2",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "4",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "5",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "6",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "7",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "8",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "9",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "10",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "11",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "12",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    }
+]

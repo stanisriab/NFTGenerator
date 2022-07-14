@@ -11,10 +11,13 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         try? loadAssets()
-            .generateImagesProperties(count: 100_000)
+            .generateImagesProperties(count: 100)
             .filterDuplicates()
-            .compactMap { $0.generateCIImage() }.map { <#(CIImage?, [Asset])#> in
-                <#code#>
+            .compactMap { $0.generateCIImage() }
+            .forEach { tuple in
+                let (image, assets) = tuple
+                print(image)
+                print(assets)
             }
     }
 
