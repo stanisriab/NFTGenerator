@@ -1,7 +1,7 @@
 
 [
     {
-        "resourceName": "1",
+        "resourceName": "F1_body_1",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -12,7 +12,7 @@
     },
 
     {
-        "resourceName": "2",
+        "resourceName": "F1_body_2",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -23,7 +23,7 @@
     },
 
     {
-        "resourceName": "4",
+        "resourceName": "F1_body_3",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -34,7 +34,7 @@
     },
 
     {
-        "resourceName": "5",
+        "resourceName": "F1_body_4",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -45,7 +45,7 @@
     },
 
     {
-        "resourceName": "6",
+        "resourceName": "F1_body_5",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -56,7 +56,7 @@
     },
 
     {
-        "resourceName": "7",
+        "resourceName": "F1_body_6",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -67,7 +67,7 @@
     },
 
     {
-        "resourceName": "8",
+        "resourceName": "F1_body_7",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -78,7 +78,7 @@
     },
 
     {
-        "resourceName": "9",
+        "resourceName": "F1_body_8",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -89,7 +89,7 @@
     },
 
     {
-        "resourceName": "10",
+        "resourceName": "F1_body_9",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -100,7 +100,7 @@
     },
 
     {
-        "resourceName": "11",
+        "resourceName": "F1_body_10",
         "resourceType": "png",
         "tags": [
             "Body"
@@ -111,7 +111,29 @@
     },
 
     {
-        "resourceName": "12",
+        "resourceName": "F1_body_11",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "F1_body_12",
+        "resourceType": "png",
+        "tags": [
+            "Body"
+        ],
+        "rarity": 1000,
+        "type": "body",
+        "layer": 2
+    },
+
+    {
+        "resourceName": "F1_body_13",
         "resourceType": "png",
         "tags": [
             "Body"
