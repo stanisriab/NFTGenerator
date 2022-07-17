@@ -6,30 +6,34 @@
 //
 
 import Cocoa
+import Foundation
 
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        try? loadAssets()
-            .generateImagesProperties(count: 100)
-            .filterDuplicates()
-            .compactMap { $0.generateCIImage() }
-            .forEach { tuple in
-                let (image, assets) = tuple
-                print(image)
-                print(assets)
-            }
-    }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        print(Date().debugDescription)
+        
+        do {
+            let destination = try FileManager.default.url(for: .downloadsDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+    
+            print(destination)
+            
+            try loadAssets()
+                .generateImagesProperties(count: 500)
+                .filterDuplicates()
+                .compactMap { $0.generateCIImage() }.forEach {
+                    try saveCIImageToJpeg($0.0, to: destination)
+                }
+        } catch {
+            print(error)
+        }
+        
+        print(Date().debugDescription)
     }
 
     func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
         return true
     }
-
-
 }
 
 enum AssetConfig: String {
@@ -48,9 +52,20 @@ func loadAssets(with config: AssetConfig = .default) throws -> [[Asset]] {
         .compactMap { try JSONDecoder().decode([Asset].self, from: .init(contentsOf: $0)) }
 }
 
-
 func saveToDisk() {
     // 1. save image
     // 2. generate json
     // 3. save json
 }
+
+func saveCIImageToJpeg(_ image: CIImage, to path: URL) throws {
+    try autoreleasepool {
+        let representation = NSBitmapImageRep.init(ciImage: image)
+        let data = representation.representation(using: .jpeg, properties: [:])
+        var path = path
+        path.appendPathComponent(UUID().uuidString)
+        path.appendPathExtension("jpeg")
+        try data?.write(to: path)
+    }
+}
+
