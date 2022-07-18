@@ -1,0 +1,101 @@
+
+[
+    {
+        "resourceName": "F1_background_1",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "F1_background_2",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "F1_background_4",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "F1_background_5",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "F1_background_6",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "F1_background_7",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "F1_background_8",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "F1_background_9",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    },
+
+    {
+        "resourceName": "F1_background_10",
+        "resourceType": "png",
+        "tags": [
+            "BG"
+        ],
+        "rarity": 1000,
+        "type": "background",
+        "layer": 1
+    }
+]

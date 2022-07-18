@@ -1,0 +1,132 @@
+[
+    {
+        "resourceName": "F1_accessories_bdsm_1_a",
+        "resourceType": "png",
+        "tags": [
+            "BDSM"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_bdsm_1_b",
+        "resourceType": "png",
+        "tags": [
+            "BDSM"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_bdsm_2_a",
+        "resourceType": "png",
+        "tags": [
+            "BDSM"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_bdsm_2_b",
+        "resourceType": "png",
+        "tags": [
+            "BDSM"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_bdsm_2_c",
+        "resourceType": "png",
+        "tags": [
+            "BDSM"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_clothes_1_a",
+        "resourceType": "png",
+        "tags": [
+            "Clothes"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_clothes_1_b",
+        "resourceType": "png",
+        "tags": [
+            "Clothes"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_clothes_2",
+        "resourceType": "png",
+        "tags": [
+            "Clothes"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_skeen_1",
+        "resourceType": "png",
+        "tags": [
+            "Skeen"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_tattoo_1_a",
+        "resourceType": "png",
+        "tags": [
+            "Tattoo"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_tattoo_1_b",
+        "resourceType": "png",
+        "tags": [
+            "Tattoo"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_weed_1_a",
+        "resourceType": "png",
+        "tags": [
+            "Weed"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }, 
+    {
+        "resourceName": "F1_accessories_weed_1_b",
+        "resourceType": "png",
+        "tags": [
+            "Weed"
+        ],
+        "rarity": 1000,
+        "type": "accessory",
+        "layer": 4
+    }
+]
