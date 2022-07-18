@@ -1,10 +1,11 @@
 
 [
     {
-        "resourceName": "F1_body_1",
+        "resourceName": "body_white_1",
         "resourceType": "png",
         "tags": [
-            "Body"
+            "Body",
+            "white_1"
         ],
         "rarity": 1000,
         "type": "body",
@@ -12,10 +13,11 @@
     },
 
     {
-        "resourceName": "F1_body_2",
+        "resourceName": "body_white_+1",
         "resourceType": "png",
         "tags": [
-            "Body"
+            "Body",
+            "white_+1"
         ],
         "rarity": 1000,
         "type": "body",
@@ -23,10 +25,11 @@
     },
 
     {
-        "resourceName": "F1_body_3",
+        "resourceName": "body_white_2",
         "resourceType": "png",
         "tags": [
-            "Body"
+            "Body",
+            "white_2"
         ],
         "rarity": 1000,
         "type": "body",
@@ -34,10 +37,11 @@
     },
 
     {
-        "resourceName": "F1_body_4",
+        "resourceName": "body_black_2",
         "resourceType": "png",
         "tags": [
-            "Body"
+            "Body",
+            "black_2"
         ],
         "rarity": 1000,
         "type": "body",
@@ -45,10 +49,11 @@
     },
 
     {
-        "resourceName": "F1_body_5",
+        "resourceName": "body_strng_green",
         "resourceType": "png",
         "tags": [
-            "Body"
+            "Body",
+            "strng_green"
         ],
         "rarity": 1000,
         "type": "body",
@@ -56,10 +61,11 @@
     },
 
     {
-        "resourceName": "F1_body_6",
+        "resourceName": "body_strng_perple",
         "resourceType": "png",
         "tags": [
-            "Body"
+            "Body",
+            "strng_perple"
         ],
         "rarity": 1000,
         "type": "body",
@@ -67,76 +73,11 @@
     },
 
     {
-        "resourceName": "F1_body_7",
+        "resourceName": "body_strng_yellow",
         "resourceType": "png",
         "tags": [
-            "Body"
-        ],
-        "rarity": 1000,
-        "type": "body",
-        "layer": 2
-    },
-
-    {
-        "resourceName": "F1_body_8",
-        "resourceType": "png",
-        "tags": [
-            "Body"
-        ],
-        "rarity": 1000,
-        "type": "body",
-        "layer": 2
-    },
-
-    {
-        "resourceName": "F1_body_9",
-        "resourceType": "png",
-        "tags": [
-            "Body"
-        ],
-        "rarity": 1000,
-        "type": "body",
-        "layer": 2
-    },
-
-    {
-        "resourceName": "F1_body_10",
-        "resourceType": "png",
-        "tags": [
-            "Body"
-        ],
-        "rarity": 1000,
-        "type": "body",
-        "layer": 2
-    },
-
-    {
-        "resourceName": "F1_body_11",
-        "resourceType": "png",
-        "tags": [
-            "Body"
-        ],
-        "rarity": 1000,
-        "type": "body",
-        "layer": 2
-    },
-
-    {
-        "resourceName": "F1_body_12",
-        "resourceType": "png",
-        "tags": [
-            "Body"
-        ],
-        "rarity": 1000,
-        "type": "body",
-        "layer": 2
-    },
-
-    {
-        "resourceName": "F1_body_13",
-        "resourceType": "png",
-        "tags": [
-            "Body"
+            "Body",
+            "strng_yellow"
         ],
         "rarity": 1000,
         "type": "body",

@@ -24,9 +24,11 @@ extension Asset {
         case eye
         case hand
         case head
+        case hat
         case mouth
         case wings
         case background
+        case stick
     }
 }
 

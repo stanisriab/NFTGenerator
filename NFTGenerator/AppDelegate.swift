@@ -19,7 +19,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             print(destination)
             
             try loadAssets()
-                .generateImagesProperties(count: 500)
+                .generateImagesProperties(count: 1)
                 .filterDuplicates()
                 .compactMap { $0.generateCIImage() }.forEach {
                     try saveCIImageToJpeg($0.0, to: destination)

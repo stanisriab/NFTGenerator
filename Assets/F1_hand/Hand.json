@@ -1,52 +1,85 @@
 [
     {
-        "resourceName": "F1_hand_1",
+        "resourceName": "hand_white_1",
         "resourceType": "png",
         "tags": [
-            "Hand"
+            "Hand",
+            "white_1"
         ],
         "rarity": 1000,
         "type": "hand",
-        "layer": 6
+        "layer": 7
     },
+
     {
-        "resourceName": "F1_hand_2",
+        "resourceName": "hand_white_+1",
         "resourceType": "png",
         "tags": [
-            "Hand"
+            "Hand",
+            "white_+1"
         ],
         "rarity": 1000,
         "type": "hand",
-        "layer": 6
+        "layer": 7
     },
+
     {
-        "resourceName": "F1_hand_3",
+        "resourceName": "hand_white_2",
         "resourceType": "png",
         "tags": [
-            "Hand"
+            "Hand",
+            "white_2"
         ],
         "rarity": 1000,
         "type": "hand",
-        "layer": 6
+        "layer": 7
     },
+
     {
-        "resourceName": "F1_hand_4",
+        "resourceName": "hand_black_2",
         "resourceType": "png",
         "tags": [
-            "Hand"
+            "Hand",
+            "black_2"
         ],
         "rarity": 1000,
         "type": "hand",
-        "layer": 6
+        "layer": 7
     },
+
     {
-        "resourceName": "F1_hand_5",
+        "resourceName": "hand_strng_green",
         "resourceType": "png",
         "tags": [
-            "Hand"
+            "Hand",
+            "strng_green"
         ],
         "rarity": 1000,
         "type": "hand",
-        "layer": 6
+        "layer": 7
+    },
+
+    {
+        "resourceName": "hand_strng_perple",
+        "resourceType": "png",
+        "tags": [
+            "Hand",
+            "strng_perple"
+        ],
+        "rarity": 1000,
+        "type": "hand",
+        "layer": 7
+    },
+
+    {
+        "resourceName": "hand_strng_yellow",
+        "resourceType": "png",
+        "tags": [
+            "Hand",
+            "strng_yellow"
+        ],
+        "rarity": 1000,
+        "type": "hand",
+        "layer": 7
     }
 ]
