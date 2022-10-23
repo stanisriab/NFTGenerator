@@ -1,0 +1,94 @@
+[
+    // F1_mouth_1 1
+    {
+        "id": "1666456424",
+        "resource": {
+            "name": "F1_mouth_1",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "",
+            "rarity": "rare",
+            "type": "mouth",
+            "name": "Smirk"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    },
+
+    // F1_mouth_2 2
+    {
+        "id": "1666456430",
+        "resource": {
+            "name": "F1_mouth_2",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "",
+            "rarity": "rare",
+            "type": "mouth",
+            "name": "Smile"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    },
+
+    // F1_mouth_3 3
+    {
+        "id": "1666456437",
+        "resource": {
+            "name": "F1_mouth_3",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "",
+            "rarity": "rare",
+            "type": "mouth",
+            "name": "Sad"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    }
+]

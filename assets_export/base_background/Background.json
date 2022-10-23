@@ -1,0 +1,94 @@
+[
+    // red 1
+    {
+        "id": "1666453306",
+        "resource": {
+            "name": "FF7777",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "red",
+            "rarity": "rare",
+            "type": "bg",
+            "name": "FF7777"
+        },
+        "tags": {
+            "own": [
+                
+            ],
+            "pairs": [
+                
+            ],
+            "unpairs": [
+                
+            ]
+        },
+        "mustMatchIds": [
+            
+        ]
+    },
+
+    // sand 2
+    {
+        "id": "1666453400",
+        "resource": {
+            "name": "E0C398",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "sand",
+            "rarity": "rare",
+            "type": "bg",
+            "name": "E0C398"
+        },
+        "tags": {
+            "own": [
+                
+            ],
+            "pairs": [
+                
+            ],
+            "unpairs": [
+                
+            ]
+        },
+        "mustMatchIds": [
+            
+        ]
+    },
+
+    // purple 3
+    {
+        "id": "1666453411",
+        "resource": {
+            "name": "989FE0",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "purple",
+            "rarity": "rare",
+            "type": "bg",
+            "name": "989FE0"
+        },
+        "tags": {
+            "own": [
+                
+            ],
+            "pairs": [
+                
+            ],
+            "unpairs": [
+                
+            ]
+        },
+        "mustMatchIds": [
+            
+        ]
+    }
+]
