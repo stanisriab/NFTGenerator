@@ -15,11 +15,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             do {
                 let destination = try FileManager.default.url(for: .downloadsDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
                 
-                try loadAssets()
-                    .generateImagesProperties(count: 500)
-                    .filterDuplicates()
-                    .compactMap { $0.generateCIImage() }
-                    .forEach { saveCIImageToJpeg($0.0, to: destination) }
+//                try loadAssets()
+//                    .generateImagesProperties(count: 500)
+//                    .filterDuplicates()
+//                    .compactMap { $0.generateCIImage() }
+//                    .forEach { saveCIImageToJpeg($0.0, to: destination) }
             } catch {
                 print(error)
             }
@@ -35,17 +35,17 @@ enum AssetConfig: String {
     case `default` = "Config"
 }
 
-func loadAssets(with config: AssetConfig = .default) throws -> [[Asset]] {
-    guard let urlPath = Bundle.main.url(forResource: config.rawValue, withExtension: "json") else {
-        throw "Not found config file"
-    }
-    
-    let configNames = try JSONDecoder().decode([ConfigElement].self, from: .init(contentsOf: urlPath))
-    
-    return try configNames
-        .compactMap { Bundle.main.url(forResource: $0, withExtension: "json") }
-        .compactMap { try JSONDecoder().decode([Asset].self, from: .init(contentsOf: $0)) }
-}
+//func loadAssets(with config: AssetConfig = .default) throws -> [[Asset]] {
+//    guard let urlPath = Bundle.main.url(forResource: config.rawValue, withExtension: "json") else {
+//        throw "Not found config file"
+//    }
+//
+//    let configNames = try JSONDecoder().decode([ConfigElement].self, from: .init(contentsOf: urlPath))
+//
+//    return try configNames
+//        .compactMap { Bundle.main.url(forResource: $0, withExtension: "json") }
+//        .compactMap { try JSONDecoder().decode([Asset].self, from: .init(contentsOf: $0)) }
+//}
 
 func saveToDisk() {
     // 1. save image
