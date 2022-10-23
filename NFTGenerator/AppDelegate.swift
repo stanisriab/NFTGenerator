@@ -15,6 +15,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             do {
                 let destination = try FileManager.default.url(for: .downloadsDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
                 
+                print(Date().debugDescription)
+                let configs = try loadConfig().generateImageConfigs(count: 10000)
+                print(Date().debugDescription)
+                print(configs)
 //                try loadAssets()
 //                    .generateImagesProperties(count: 500)
 //                    .filterDuplicates()
@@ -33,6 +37,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 enum AssetConfig: String {
     case `default` = "Config"
+}
+
+func loadConfig(config: AssetConfig = .default) throws -> [ConfigElement] {
+    guard let urlPath = Bundle.main.url(forResource: config.rawValue, withExtension: "json") else {
+        throw "Not found config file"
+    }
+    
+    return try JSONDecoder().decode([ConfigElement].self, from: .init(contentsOf: urlPath))
 }
 
 //func loadAssets(with config: AssetConfig = .default) throws -> [[Asset]] {

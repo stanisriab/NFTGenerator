@@ -10,6 +10,21 @@ import CoreImage
 
 extension Array: AnyModel where Element: AnyModel {}
 
+extension Array where Element == ConfigElement {
+    func generateImageConfigs(count: Int) -> [ImageConfig] {
+        (0..<count).map { _ in ImageConfig(layerConfigs: applyRarity()) }
+    }
+    
+    func applyRarity() -> Self {
+        compactMap { (element: ConfigElement) -> ConfigElement? in
+            switch element.rarity {
+            case 1: return element
+            default: return Double.random(in: 0...1) <= element.rarity ? element : nil
+            }
+        }
+    }
+}
+
 extension Array where Element == Asset {
 //    func getRandomAsset() -> Element? {
 //        let totalRarity = reduce(into: 0) { $0 += $1.rarity }

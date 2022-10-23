@@ -7,4 +7,4 @@
 
 import Foundation
 
-typealias LayerRarity = Int
+typealias LayerRarity = Double

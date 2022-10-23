@@ -17,7 +17,7 @@
     {
         "name": "Tatto",
         "layer": 4,
-        "rarity": 1
+        "rarity": 0.5
     },
     {
         "name": "Mouth",
@@ -27,32 +27,32 @@
     {
         "name": "FaceAccesory",
         "layer": 6,
-        "rarity": 1
+        "rarity": 0.5
     },
     {
         "name": "Hair",
         "layer": 7,
-        "rarity": 1
+        "rarity": 0.5
     },
     {
         "name": "Clothing",
         "layer": 8,
-        "rarity": 1
+        "rarity": 0.75
     },
     {
         "name": "Outerwear",
         "layer": 9,
-        "rarity": 1
+        "rarity": 0.25
     },
     {
         "name": "NeckAccesory",
         "layer": 10,
-        "rarity": 1
+        "rarity": 0.25
     },
     {
         "name": "ClothAccessory",
         "layer": 11,
-        "rarity": 1
+        "rarity": 0.25
     },
     {
         "name": "Eyes",
@@ -62,17 +62,17 @@
     {
         "name": "EyesAccesory",
         "layer": 13,
-        "rarity": 1
+        "rarity": 0.25
     },
     {
         "name": "FaceHair",
         "layer": 14,
-        "rarity": 1
+        "rarity": 0.25
     },
     {
         "name": "Hat",
         "layer": 15,
-        "rarity": 1
+        "rarity": 0.25
     },
     {
         "name": "Hand",
@@ -82,17 +82,17 @@
     {
         "name": "HandTattoo",
         "layer": 17,
-        "rarity": 1
+        "rarity": 0.25
     },
     {
         "name": "ForearmAccessory",
         "layer": 18,
-        "rarity": 1
+        "rarity": 0.25
     },
     {
         "name": "HandAccessory",
         "layer": 19,
-        "rarity": 1
+        "rarity": 0.25
     },
     {
         "name": "Facilities",

@@ -7,6 +7,10 @@
 
 import Foundation
 
-//final class ImageConfig {
-//    var configs
-//}
+final class ImageConfig {
+    let layerConfigs: [ConfigElement]
+    
+    init(layerConfigs: [ConfigElement]) {
+        self.layerConfigs = layerConfigs
+    }
+}
