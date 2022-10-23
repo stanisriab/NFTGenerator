@@ -1,0 +1,94 @@
+[
+    // black(2) 1
+    {
+        "id": "1666456300",
+        "resource": {
+            "name": "hand_black_2",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "black_2",
+            "rarity": "rare",
+            "type": "hand",
+            "name": "Neave Black"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    },
+
+    // white(2) 2
+    {
+        "id": "1666456307",
+        "resource": {
+            "name": "hand_white_2",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "white_2",
+            "rarity": "rare",
+            "type": "hand",
+            "name": "Pink"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    },
+
+    // purple 3
+    {
+        "id": "1666456314",
+        "resource": {
+            "name": "hand_strng_perple",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "purple",
+            "rarity": "rare",
+            "type": "hand",
+            "name": "Purple"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    }
+]
