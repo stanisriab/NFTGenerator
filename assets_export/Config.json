@@ -1,122 +1,102 @@
-
 [
     {
         "name": "Background",
         "layer": 1,
         "rarity": 1
     },
-
     {
         "name": "Wings",
         "layer": 2,
         "rarity": 1
     },
-
     {
         "name": "Body",
         "layer": 3,
         "rarity": 1
     },
-
     {
         "name": "Tatto",
         "layer": 4,
         "rarity": 1
     },
-
     {
         "name": "Mouth",
         "layer": 5,
         "rarity": 1
     },
-
     {
         "name": "FaceAccesory",
         "layer": 6,
         "rarity": 1
     },
-
     {
         "name": "Hair",
         "layer": 7,
         "rarity": 1
     },
-
     {
         "name": "Clothing",
         "layer": 8,
         "rarity": 1
     },
-
     {
         "name": "Outerwear",
         "layer": 9,
         "rarity": 1
     },
-
     {
         "name": "NeckAccesory",
         "layer": 10,
         "rarity": 1
     },
-
     {
         "name": "ClothAccessory",
         "layer": 11,
         "rarity": 1
     },
-
     {
         "name": "Eyes",
         "layer": 12,
         "rarity": 1
     },
-
     {
         "name": "EyesAccesory",
         "layer": 13,
         "rarity": 1
     },
-
     {
         "name": "FaceHair",
         "layer": 14,
         "rarity": 1
     },
-
     {
         "name": "Hat",
         "layer": 15,
         "rarity": 1
     },
-
     {
         "name": "Hand",
         "layer": 16,
         "rarity": 1
     },
-
     {
         "name": "HandTattoo",
         "layer": 17,
         "rarity": 1
     },
-
     {
         "name": "ForearmAccessory",
         "layer": 18,
         "rarity": 1
     },
-
     {
         "name": "HandAccessory",
         "layer": 19,
         "rarity": 1
     },
-
     {
         "name": "Facilities",
         "layer": 20,
         "rarity": 1
-    },
+    }
 ]

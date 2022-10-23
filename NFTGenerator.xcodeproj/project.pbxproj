@@ -151,6 +151,17 @@
 		F1646E3C2872F892009B2FF9 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1646E3B2872F892009B2FF9 /* StringExtensions.swift */; };
 		F1646E3F2872F8B9009B2FF9 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1646E3E2872F8B9009B2FF9 /* Asset.swift */; };
 		F1646E412872F8F9009B2FF9 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1646E402872F8F9009B2FF9 /* ArrayExtensions.swift */; };
+		F17298C829059573008A97C4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298C729059573008A97C4 /* Config.swift */; };
+		F17298CA29059846008A97C4 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298C929059846008A97C4 /* Resource.swift */; };
+		F17298CC29059868008A97C4 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298CB29059868008A97C4 /* Tag.swift */; };
+		F17298CE29059898008A97C4 /* UniqueIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298CD29059898008A97C4 /* UniqueIdentifier.swift */; };
+		F17298D0290598C0008A97C4 /* LayerRarity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298CF290598C0008A97C4 /* LayerRarity.swift */; };
+		F17298D2290598E8008A97C4 /* LayerOrderNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298D1290598E8008A97C4 /* LayerOrderNumber.swift */; };
+		F17298D42905992B008A97C4 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298D32905992B008A97C4 /* Tags.swift */; };
+		F17298D629059947008A97C4 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298D529059947008A97C4 /* Attributes.swift */; };
+		F17298D82905997B008A97C4 /* AssetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298D72905997B008A97C4 /* AssetType.swift */; };
+		F17298DA29059986008A97C4 /* AssetRarity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298D929059986008A97C4 /* AssetRarity.swift */; };
+		F17298DC29059C34008A97C4 /* ImageConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17298DB29059C34008A97C4 /* ImageConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -300,6 +311,17 @@
 		F1646E3B2872F892009B2FF9 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		F1646E3E2872F8B9009B2FF9 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
 		F1646E402872F8F9009B2FF9 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		F17298C729059573008A97C4 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		F17298C929059846008A97C4 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		F17298CB29059868008A97C4 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		F17298CD29059898008A97C4 /* UniqueIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueIdentifier.swift; sourceTree = "<group>"; };
+		F17298CF290598C0008A97C4 /* LayerRarity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerRarity.swift; sourceTree = "<group>"; };
+		F17298D1290598E8008A97C4 /* LayerOrderNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerOrderNumber.swift; sourceTree = "<group>"; };
+		F17298D32905992B008A97C4 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		F17298D529059947008A97C4 /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		F17298D72905997B008A97C4 /* AssetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetType.swift; sourceTree = "<group>"; };
+		F17298D929059986008A97C4 /* AssetRarity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetRarity.swift; sourceTree = "<group>"; };
+		F17298DB29059C34008A97C4 /* ImageConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,119 +338,17 @@
 		685D2F7C29058832002FBC8D /* assets_export */ = {
 			isa = PBXGroup;
 			children = (
-				685D2F7D29058832002FBC8D /* face hair */,
-				685D2F8329058832002FBC8D /* neckles */,
 				685D2F8929058832002FBC8D /* base_hand */,
 				685D2F9229058832002FBC8D /* Config.json */,
 				685D2F9329058832002FBC8D /* base_wings */,
-				685D2FA129058832002FBC8D /* hand accessory */,
-				685D2FA729058832002FBC8D /* upper body accessory */,
 				685D2FAD29058832002FBC8D /* base_body */,
-				685D2FB629058832002FBC8D /* hairstyle */,
 				685D2FBC29058832002FBC8D /* base_background */,
-				685D2FC829058832002FBC8D /* face accessory */,
-				685D2FCE29058832002FBC8D /* hat */,
 				685D2FD429058832002FBC8D /* base_eyes */,
 				685D2FEB29058832002FBC8D /* cloth */,
 				685D303329058832002FBC8D /* base_mouth */,
-				685D303A29058832002FBC8D /* facilities */,
 			);
 			path = assets_export;
 			sourceTree = SOURCE_ROOT;
-		};
-		685D2F7D29058832002FBC8D /* face hair */ = {
-			isa = PBXGroup;
-			children = (
-				685D2F7E29058832002FBC8D /* handyman */,
-				685D2F7F29058832002FBC8D /* jailbird */,
-				685D2F8029058832002FBC8D /* office */,
-				685D2F8129058832002FBC8D /* creative */,
-				685D2F8229058832002FBC8D /* service */,
-			);
-			path = "face hair";
-			sourceTree = "<group>";
-		};
-		685D2F7E29058832002FBC8D /* handyman */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = handyman;
-			sourceTree = "<group>";
-		};
-		685D2F7F29058832002FBC8D /* jailbird */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = jailbird;
-			sourceTree = "<group>";
-		};
-		685D2F8029058832002FBC8D /* office */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = office;
-			sourceTree = "<group>";
-		};
-		685D2F8129058832002FBC8D /* creative */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = creative;
-			sourceTree = "<group>";
-		};
-		685D2F8229058832002FBC8D /* service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = service;
-			sourceTree = "<group>";
-		};
-		685D2F8329058832002FBC8D /* neckles */ = {
-			isa = PBXGroup;
-			children = (
-				685D2F8429058832002FBC8D /* handyman */,
-				685D2F8529058832002FBC8D /* jailbird */,
-				685D2F8629058832002FBC8D /* office */,
-				685D2F8729058832002FBC8D /* creative */,
-				685D2F8829058832002FBC8D /* service */,
-			);
-			path = neckles;
-			sourceTree = "<group>";
-		};
-		685D2F8429058832002FBC8D /* handyman */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = handyman;
-			sourceTree = "<group>";
-		};
-		685D2F8529058832002FBC8D /* jailbird */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = jailbird;
-			sourceTree = "<group>";
-		};
-		685D2F8629058832002FBC8D /* office */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = office;
-			sourceTree = "<group>";
-		};
-		685D2F8729058832002FBC8D /* creative */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = creative;
-			sourceTree = "<group>";
-		};
-		685D2F8829058832002FBC8D /* service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = service;
-			sourceTree = "<group>";
 		};
 		685D2F8929058832002FBC8D /* base_hand */ = {
 			isa = PBXGroup;
@@ -465,100 +385,6 @@
 			path = base_wings;
 			sourceTree = "<group>";
 		};
-		685D2FA129058832002FBC8D /* hand accessory */ = {
-			isa = PBXGroup;
-			children = (
-				685D2FA229058832002FBC8D /* handyman */,
-				685D2FA329058832002FBC8D /* jailbird */,
-				685D2FA429058832002FBC8D /* office */,
-				685D2FA529058832002FBC8D /* creative */,
-				685D2FA629058832002FBC8D /* service */,
-			);
-			path = "hand accessory";
-			sourceTree = "<group>";
-		};
-		685D2FA229058832002FBC8D /* handyman */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = handyman;
-			sourceTree = "<group>";
-		};
-		685D2FA329058832002FBC8D /* jailbird */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = jailbird;
-			sourceTree = "<group>";
-		};
-		685D2FA429058832002FBC8D /* office */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = office;
-			sourceTree = "<group>";
-		};
-		685D2FA529058832002FBC8D /* creative */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = creative;
-			sourceTree = "<group>";
-		};
-		685D2FA629058832002FBC8D /* service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = service;
-			sourceTree = "<group>";
-		};
-		685D2FA729058832002FBC8D /* upper body accessory */ = {
-			isa = PBXGroup;
-			children = (
-				685D2FA829058832002FBC8D /* handyman */,
-				685D2FA929058832002FBC8D /* jailbird */,
-				685D2FAA29058832002FBC8D /* office */,
-				685D2FAB29058832002FBC8D /* creative */,
-				685D2FAC29058832002FBC8D /* service */,
-			);
-			path = "upper body accessory";
-			sourceTree = "<group>";
-		};
-		685D2FA829058832002FBC8D /* handyman */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = handyman;
-			sourceTree = "<group>";
-		};
-		685D2FA929058832002FBC8D /* jailbird */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = jailbird;
-			sourceTree = "<group>";
-		};
-		685D2FAA29058832002FBC8D /* office */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = office;
-			sourceTree = "<group>";
-		};
-		685D2FAB29058832002FBC8D /* creative */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = creative;
-			sourceTree = "<group>";
-		};
-		685D2FAC29058832002FBC8D /* service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = service;
-			sourceTree = "<group>";
-		};
 		685D2FAD29058832002FBC8D /* base_body */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,53 +398,6 @@
 				685D2FB529058832002FBC8D /* body_white_+1.png */,
 			);
 			path = base_body;
-			sourceTree = "<group>";
-		};
-		685D2FB629058832002FBC8D /* hairstyle */ = {
-			isa = PBXGroup;
-			children = (
-				685D2FB729058832002FBC8D /* handyman */,
-				685D2FB829058832002FBC8D /* jailbird */,
-				685D2FB929058832002FBC8D /* office */,
-				685D2FBA29058832002FBC8D /* creative */,
-				685D2FBB29058832002FBC8D /* service */,
-			);
-			path = hairstyle;
-			sourceTree = "<group>";
-		};
-		685D2FB729058832002FBC8D /* handyman */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = handyman;
-			sourceTree = "<group>";
-		};
-		685D2FB829058832002FBC8D /* jailbird */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = jailbird;
-			sourceTree = "<group>";
-		};
-		685D2FB929058832002FBC8D /* office */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = office;
-			sourceTree = "<group>";
-		};
-		685D2FBA29058832002FBC8D /* creative */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = creative;
-			sourceTree = "<group>";
-		};
-		685D2FBB29058832002FBC8D /* service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = service;
 			sourceTree = "<group>";
 		};
 		685D2FBC29058832002FBC8D /* base_background */ = {
@@ -637,100 +416,6 @@
 				685D2FC729058832002FBC8D /* q_background_6.png */,
 			);
 			path = base_background;
-			sourceTree = "<group>";
-		};
-		685D2FC829058832002FBC8D /* face accessory */ = {
-			isa = PBXGroup;
-			children = (
-				685D2FC929058832002FBC8D /* handyman */,
-				685D2FCA29058832002FBC8D /* jailbird */,
-				685D2FCB29058832002FBC8D /* office */,
-				685D2FCC29058832002FBC8D /* creative */,
-				685D2FCD29058832002FBC8D /* service */,
-			);
-			path = "face accessory";
-			sourceTree = "<group>";
-		};
-		685D2FC929058832002FBC8D /* handyman */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = handyman;
-			sourceTree = "<group>";
-		};
-		685D2FCA29058832002FBC8D /* jailbird */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = jailbird;
-			sourceTree = "<group>";
-		};
-		685D2FCB29058832002FBC8D /* office */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = office;
-			sourceTree = "<group>";
-		};
-		685D2FCC29058832002FBC8D /* creative */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = creative;
-			sourceTree = "<group>";
-		};
-		685D2FCD29058832002FBC8D /* service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = service;
-			sourceTree = "<group>";
-		};
-		685D2FCE29058832002FBC8D /* hat */ = {
-			isa = PBXGroup;
-			children = (
-				685D2FCF29058832002FBC8D /* handyman */,
-				685D2FD029058832002FBC8D /* jailbird */,
-				685D2FD129058832002FBC8D /* office */,
-				685D2FD229058832002FBC8D /* creative */,
-				685D2FD329058832002FBC8D /* service */,
-			);
-			path = hat;
-			sourceTree = "<group>";
-		};
-		685D2FCF29058832002FBC8D /* handyman */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = handyman;
-			sourceTree = "<group>";
-		};
-		685D2FD029058832002FBC8D /* jailbird */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = jailbird;
-			sourceTree = "<group>";
-		};
-		685D2FD129058832002FBC8D /* office */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = office;
-			sourceTree = "<group>";
-		};
-		685D2FD229058832002FBC8D /* creative */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = creative;
-			sourceTree = "<group>";
-		};
-		685D2FD329058832002FBC8D /* service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = service;
 			sourceTree = "<group>";
 		};
 		685D2FD429058832002FBC8D /* base_eyes */ = {
@@ -888,53 +573,6 @@
 			path = base_mouth;
 			sourceTree = "<group>";
 		};
-		685D303A29058832002FBC8D /* facilities */ = {
-			isa = PBXGroup;
-			children = (
-				685D303B29058832002FBC8D /* handyman */,
-				685D303C29058832002FBC8D /* jailbird */,
-				685D303D29058832002FBC8D /* office */,
-				685D303E29058832002FBC8D /* creative */,
-				685D303F29058832002FBC8D /* service */,
-			);
-			path = facilities;
-			sourceTree = "<group>";
-		};
-		685D303B29058832002FBC8D /* handyman */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = handyman;
-			sourceTree = "<group>";
-		};
-		685D303C29058832002FBC8D /* jailbird */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = jailbird;
-			sourceTree = "<group>";
-		};
-		685D303D29058832002FBC8D /* office */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = office;
-			sourceTree = "<group>";
-		};
-		685D303E29058832002FBC8D /* creative */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = creative;
-			sourceTree = "<group>";
-		};
-		685D303F29058832002FBC8D /* service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = service;
-			sourceTree = "<group>";
-		};
 		F1646E1C2872F3E2009B2FF9 = {
 			isa = PBXGroup;
 			children = (
@@ -988,7 +626,18 @@
 		F1646E3D2872F8B0009B2FF9 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				F17298C729059573008A97C4 /* Config.swift */,
 				F1646E3E2872F8B9009B2FF9 /* Asset.swift */,
+				F17298D72905997B008A97C4 /* AssetType.swift */,
+				F17298D929059986008A97C4 /* AssetRarity.swift */,
+				F17298D529059947008A97C4 /* Attributes.swift */,
+				F17298C929059846008A97C4 /* Resource.swift */,
+				F17298CB29059868008A97C4 /* Tag.swift */,
+				F17298D32905992B008A97C4 /* Tags.swift */,
+				F17298CD29059898008A97C4 /* UniqueIdentifier.swift */,
+				F17298CF290598C0008A97C4 /* LayerRarity.swift */,
+				F17298D1290598E8008A97C4 /* LayerOrderNumber.swift */,
+				F17298DB29059C34008A97C4 /* ImageConfig.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -1198,12 +847,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17298CA29059846008A97C4 /* Resource.swift in Sources */,
+				F17298DA29059986008A97C4 /* AssetRarity.swift in Sources */,
 				F1646E3C2872F892009B2FF9 /* StringExtensions.swift in Sources */,
+				F17298D42905992B008A97C4 /* Tags.swift in Sources */,
+				F17298CC29059868008A97C4 /* Tag.swift in Sources */,
 				F1646E412872F8F9009B2FF9 /* ArrayExtensions.swift in Sources */,
+				F17298D2290598E8008A97C4 /* LayerOrderNumber.swift in Sources */,
 				F1646E2B2872F3E2009B2FF9 /* ViewController.swift in Sources */,
 				F1646E3F2872F8B9009B2FF9 /* Asset.swift in Sources */,
+				F17298DC29059C34008A97C4 /* ImageConfig.swift in Sources */,
+				F17298CE29059898008A97C4 /* UniqueIdentifier.swift in Sources */,
 				F125D08E2873296600049427 /* CIFilterExtension.swift in Sources */,
+				F17298D0290598C0008A97C4 /* LayerRarity.swift in Sources */,
+				F17298C829059573008A97C4 /* Config.swift in Sources */,
+				F17298D82905997B008A97C4 /* AssetType.swift in Sources */,
 				F1646E292872F3E2009B2FF9 /* AppDelegate.swift in Sources */,
+				F17298D629059947008A97C4 /* Attributes.swift in Sources */,
 				F1646E392872F873009B2FF9 /* AnyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1344,7 +1004,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 66VNHY7588;
+				DEVELOPMENT_TEAM = QF9TKHN83N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GENERATE_INFOPLIST_FILE = YES;

@@ -15,9 +15,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             do {
                 let destination = try FileManager.default.url(for: .downloadsDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
                 
-     
-                print(destination)
-                
                 try loadAssets()
                     .generateImagesProperties(count: 500)
                     .filterDuplicates()
@@ -43,7 +40,7 @@ func loadAssets(with config: AssetConfig = .default) throws -> [[Asset]] {
         throw "Not found config file"
     }
     
-    let configNames = try JSONDecoder().decode([String].self, from: .init(contentsOf: urlPath))
+    let configNames = try JSONDecoder().decode([ConfigElement].self, from: .init(contentsOf: urlPath))
     
     return try configNames
         .compactMap { Bundle.main.url(forResource: $0, withExtension: "json") }
