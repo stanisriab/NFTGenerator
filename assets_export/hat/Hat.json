@@ -1,0 +1,35 @@
+[
+    // Item 1
+    {
+        "id": "61a9741a-488a-439f-8093-81e17dfa8591",
+        "resource": {
+            "name": "manager_jacket_purple",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "service",
+            "set": "manager",
+            "colorScheme": "purple",
+            "rarity": "rare",
+            "type": "cloth",
+            "name": "Purple jacket"
+        },
+        "tags": {
+            "own": [
+                "saas",
+                "saas0"
+            ],
+            "pairs": [
+                "saas1",
+                "saas2"
+            ],
+            "unpairs": [
+                "saas3",
+                "saas4"
+            ]
+        },
+        "mustMatchIds": [
+            "61a9741a-488a-439f-8093-81e17dfa8592"
+        ]
+    }
+]

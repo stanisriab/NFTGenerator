@@ -1,0 +1,94 @@
+[
+    // black(2) 1
+    {
+        "id": "1666456049",
+        "resource": {
+            "name": "eyes_black_2_1",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "black_2",
+            "rarity": "rare",
+            "type": "eyes",
+            "name": "Neave Black"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    },
+
+    // white(2) 2
+    {
+        "id": "1666456238",
+        "resource": {
+            "name": "eyes_white_2_1",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "white_2",
+            "rarity": "rare",
+            "type": "eyes",
+            "name": "Pink"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    },
+
+    // purple 3
+    {
+        "id": "1666456245",
+        "resource": {
+            "name": "eyes_strng_perple_1",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "base",
+            "set": "",
+            "colorScheme": "purple",
+            "rarity": "rare",
+            "type": "eyes",
+            "name": "Purple"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+[
+    // barista_apron_milk 1
+    {
+        "id": "1666454406",
+        "resource": {
+            "name": "barista_apron_milk",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "service",
+            "set": "barista",
+            "colorScheme": "milk",
+            "rarity": "rare",
+            "type": "cloth",
+            "name": "Barista Apron"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    },
+
+    // bartender_apron_frappuccino 2
+    {
+        "id": "1666454400",
+        "resource": {
+            "name": "bartender_apron_frappuccino",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "service",
+            "set": "barista",
+            "colorScheme": "brown",
+            "rarity": "rare",
+            "type": "cloth",
+            "name": "Bartender Apron"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    },
+
+    // chef_jacket_blue 3
+    {
+        "id": "1666454400",
+        "resource": {
+            "name": "chef_jacket_blue",
+            "type": "png"
+        },
+        "attributes": {
+            "class": "service",
+            "set": "chef",
+            "colorScheme": "blue",
+            "rarity": "rare",
+            "type": "cloth",
+            "name": "Blue Chef Jacket"
+        },
+        "tags": {
+            "own": [
+
+            ],
+            "pairs": [
+
+            ],
+            "unpairs": [
+
+            ]
+        },
+        "mustMatchIds": [
+
+        ]
+    }
+]
