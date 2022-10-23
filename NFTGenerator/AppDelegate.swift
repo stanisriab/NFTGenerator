@@ -11,24 +11,22 @@ import Foundation
 @main
 class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        print(Date().debugDescription)
-        
-        do {
-            let destination = try FileManager.default.url(for: .downloadsDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-    
-            print(destination)
-            
-            try loadAssets()
-                .generateImagesProperties(count: 500)
-                .filterDuplicates()
-                .compactMap { $0.generateCIImage() }.forEach {
-                    try saveCIImageToJpeg($0.0, to: destination)
-                }
-        } catch {
-            print(error)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            do {
+                let destination = try FileManager.default.url(for: .downloadsDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+                
+     
+                print(destination)
+                
+                try loadAssets()
+                    .generateImagesProperties(count: 500)
+                    .filterDuplicates()
+                    .compactMap { $0.generateCIImage() }
+                    .forEach { saveCIImageToJpeg($0.0, to: destination) }
+            } catch {
+                print(error)
+            }
         }
-        
-        print(Date().debugDescription)
     }
 
     func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
@@ -58,14 +56,17 @@ func saveToDisk() {
     // 3. save json
 }
 
-func saveCIImageToJpeg(_ image: CIImage, to path: URL) throws {
-    try autoreleasepool {
-        let representation = NSBitmapImageRep.init(ciImage: image)
-        let data = representation.representation(using: .jpeg, properties: [:])
-        var path = path
-        path.appendPathComponent(UUID().uuidString)
-        path.appendPathExtension("jpeg")
-        try data?.write(to: path)
+let queue = DispatchQueue(label: "queue", attributes: .concurrent, autoreleaseFrequency: .workItem, target: .global(qos: .userInteractive))
+
+func saveCIImageToJpeg(_ image: CIImage, to path: URL) {
+    queue.async {
+            let representation = NSBitmapImageRep(ciImage: image)
+            let data = representation.representation(using: .jpeg, properties: [:])
+            var path = path
+            path.appendPathComponent(UUID().uuidString)
+            path.appendPathExtension("jpeg")
+            try? data?.write(to: path)
+            print(Date().debugDescription)
     }
 }
 
