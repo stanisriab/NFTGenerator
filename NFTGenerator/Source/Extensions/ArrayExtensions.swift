@@ -48,9 +48,9 @@ extension Array where Element == Asset {
 }
 
 extension Array where Element == [Asset] {
-    func generateImagesProperties(count: Int) -> Self {
-        (0..<count).map { _ in generateImageProperties() }
-    }
+//    func generateImagesProperties(count: Int) -> Self {
+//        (0..<count).map { _ in generateImageProperties() }
+//    }
     
 //    func generateImageProperties() -> Element {
 //        compactMap { $0.getRandomAsset() }
